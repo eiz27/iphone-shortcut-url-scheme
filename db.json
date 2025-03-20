@@ -1,14 +1,23 @@
 {
-    "iPhoneShortcutURLScheme-JA": [
-      {
-        "設定画面": "prefs:root"
-      },
-      {
-        "Wi-Fi設定画面": "prefs:root=WIFI"
-      },
-      {
-        "Bluetooth設定画面": "prefs:root=Bluetooth"
-      }
+    "JA": [
+        {
+            "設定画面用URLスキーム": {
+                "設定画面": "prefs:root",
+                "Wi-Fi設定画面": "prefs:root=WIFI",
+                "Bluetooth設定画面": "prefs:root=Bluetooth",
+                "モバイル通信設定画面": "prefs:root=MOBILE_DATA_SETTINGS_ID",
+                "インターネット共有設定画面": "prefs:root=INTERNET_TETHERING",
+                "AirDrop設定画面": "prefs:root=General&path=AIRDROP_LINK",
+                "バッテリー設定画面": "prefs:root=BATTERY_USAGE",
+                "自動ロック設定画面": "prefs:root=DISPLAY&path=AUTOLOCK",
+                "通信設定画面": "prefs:root=NOTIFICATIONS_ID",
+                "サウンド設定画面": "prefs:root=Sounds",
+                "明るさ設定画面": "prefs:root=Brightness",
+                "壁紙設定画面": "prefs:root=Wallpaper",
+                "Apple Pencil設定画面": "prefs:root=Pencil",
+                "位置情報サービス": "prefs:root=LOCATION_SERVICES"
+            }
+        }
     ],
     "profile": {
       "name": "eiz",
