@@ -1,12 +1,17 @@
-{"iPhoneショートカットURLスキーム": [
-    {
+{
+    "iPhoneShortcutURLScheme-JA": [
+      {
         "設定画面": "prefs:root"
-    },
-    {
+      },
+      {
         "Wi-Fi設定画面": "prefs:root=WIFI"
-    },
-    {
+      },
+      {
         "Bluetooth設定画面": "prefs:root=Bluetooth"
+      }
+    ],
+    "profile": {
+      "name": "eiz",
+      "X(Twitter)": "https://x.com/eiz"
     }
-]
-}
+  }
